@@ -1,50 +1,20 @@
-# Welcome to your Expo app 👋
+# Todo app i React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+I dagens uppgift ska vi öva på Navigiering i React Native.
 
-## Get started
+![Todo App](todo-app.png)
 
-1. Install dependencies
+### Sätt upp projektet med React Navigation eller Expo router
 
-   ```bash
-   npm install
-   ```
+## Hur du klarar uppgiften
 
-2. Start the app
+1. Sätt upp en StackNavigator med 3 Screens: Home, Detail och Add.
+2. Skapa `[todos, setTodos]` med `useState` på Home, där alla todo-items kommer att ligga.
+3. Använd `FlatList` för att visa todos på Home.
+4. Varje item i `FlatList` ska kunna navigera till sin Detail-sida. Datan för varje item skickas med i navigate-funktionen. Skicka även med funktioner för att updatera state. T.ex. för Done och Delete. Läs på om att skicka data mellan routes här: [Params](https://reactnavigation.org/docs/params). Använd `TouchableOpacity` som knapp för varje item.
+5. Add-sidan ska vara en `Modal`. Se denna guide: [Modal](https://reactnavigation.org/docs/modal/)
 
-   ```bash
-    npx expo start
-   ```
+## Hur du lämnar in
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Skapa ett repo på github.
+2. Ladd up dina filer till github:

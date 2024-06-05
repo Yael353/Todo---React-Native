@@ -2,8 +2,6 @@
 
 I dagens uppgift ska vi öva på Navigiering i React Native.
 
-![Todo App](todo-app.png)
-
 ### Sätt upp projektet med React Navigation eller Expo router
 
 ## Hur du klarar uppgiften
